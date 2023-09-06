@@ -34,7 +34,7 @@ def our_score(score):
 # Отрисовка змейки
 def our_snake(block_size, snake_list):
     for x in snake_list:
-        pygame.draw.rect(window, black, [x[0], x[1], block_size, block_size])
+        pygame.draw.rect(window, blue, [x[0], x[1], block_size, block_size])
 
 # Отображение сообщения на экране
 def message(msg, color):
